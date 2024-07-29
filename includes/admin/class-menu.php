@@ -191,6 +191,9 @@ class WPForms_Admin_Menu {
 			[ $this, 'admin_page' ]
 		);
 
+		// XTEC ************ ELIMINAT - Removed PRO version banner
+		// 2024.07.26 @joalesmo
+		/*
 		if ( ! wpforms()->is_pro() ) {
 			add_submenu_page(
 				'wpforms-overview',
@@ -200,6 +203,9 @@ class WPForms_Admin_Menu {
 				wpforms_admin_upgrade_link( 'admin-menu' )
 			);
 		}
+		*/
+		// ************ FI
+
 	}
 
 	/**

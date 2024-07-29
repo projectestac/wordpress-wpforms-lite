@@ -36,7 +36,13 @@ class AdminBarMenu {
 		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_css' ] );
 		add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_js' ] );
 
+		// XTEC ************ ELIMINAT - Removed dropdown menu
+		// 2024.07.26 @joalesmo
+		/*
 		add_action( 'admin_bar_menu', [ $this, 'register' ], 999 );
+		*/
+		// ************ FI
+
 		add_action( 'wpforms_wp_footer_end', [ $this, 'menu_forms_data_html' ] );
 	}
 

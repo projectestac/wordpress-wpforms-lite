@@ -629,6 +629,11 @@ class WPForms_Lite {
 			return;
 		}
 		?>
+
+		<!--
+		// XTEC ************ ELIMINAT - Removed PRO version banner
+		// 2024.07.26 @joalesmo
+
 		<div class="settings-lite-cta">
 			<a href="#" class="dismiss" title="<?php esc_attr_e( 'Dismiss this message', 'wpforms-lite' ); ?>"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
 			<h5><?php esc_html_e( 'Get WPForms Pro and Unlock all the Powerful Features', 'wpforms-lite' ); ?></h5>
@@ -706,6 +711,10 @@ class WPForms_Lite {
 				} );
 			} );
 		</script>
+
+		// ************ FI
+		-->
+
 		<?php
 	}
 

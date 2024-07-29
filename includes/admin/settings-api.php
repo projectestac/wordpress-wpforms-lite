@@ -127,6 +127,10 @@ function wpforms_settings_content_callback( array $args ): string {
 function wpforms_settings_license_callback( array $args ): string { // phpcs:ignore Generic.CodeAnalysis.UnusedFunctionParameter.Found
 
 	$output  = '<p>' . esc_html__( 'You\'re using WPForms Lite - no license needed. Enjoy!', 'wpforms-lite' ) . ' 🙂</p>';
+
+	// XTEC ************ MODIFICAT - Removed upgrade promotion text
+	// 2024.07.26 @joalesmo
+	/*
 	$output .=
 		'<p>' .
 		sprintf(
@@ -154,6 +158,7 @@ function wpforms_settings_license_callback( array $args ): string { // phpcs:ign
 				]
 			) .
 		'</p>';
+	*/
 
 	$output .= '<hr><p>' . esc_html__( 'Already purchased? Simply enter your license key below to enable WPForms PRO!', 'wpforms-lite' ) . '</p>';
 	$output .= '<p>';

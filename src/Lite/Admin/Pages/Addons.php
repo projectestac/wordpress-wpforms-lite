@@ -94,10 +94,15 @@ class Addons {
 			esc_html__( 'Upgrade Now', 'wpforms-lite' )
 		);
 
+		// XTEC ************ ELIMINAT - Removed banner
+		// 2024.07.26 @joalesmo
+		/*
 		\WPForms\Admin\Notice::info(
 			$notice,
 			[ 'autop' => false ]
 		);
+		*/
+		// ************ FI
 	}
 
 	/**

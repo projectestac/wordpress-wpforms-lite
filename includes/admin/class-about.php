@@ -496,6 +496,10 @@ class WPForms_About {
 
 		</div>
 
+		<!--
+		// XTEC ************ ELIMINAT - Removed PRO version banner
+		// 2024.07.26 @joalesmo
+
 		<?php if ( ! in_array( $license, self::$licenses_top, true ) ) { ?>
 			<div class="wpforms-admin-about-section wpforms-admin-about-section-hero">
 
@@ -632,6 +636,9 @@ class WPForms_About {
 
 			</div>
 		<?php } ?>
+
+		// ************ FI
+		-->
 
 		<div class="wpforms-admin-about-section wpforms-admin-about-section-squashed wpforms-admin-about-section-post wpforms-admin-columns">
 			<div class="wpforms-admin-column-20">
