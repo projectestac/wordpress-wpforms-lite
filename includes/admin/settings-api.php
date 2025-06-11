@@ -134,7 +134,7 @@ function wpforms_settings_license_callback( array $args ): string { // phpcs:ign
 	$output .=
 		'<p>' .
 		sprintf(
-			wp_kses( /* translators: %s - WPForms.com upgrade URL. */
+			wp_kses( // translators: %s - WPForms.com upgrade URL.
 				__( 'To unlock more features consider <strong><a href="%s" target="_blank" rel="noopener noreferrer" class="wpforms-upgrade-modal">upgrading to PRO</a></strong>.', 'wpforms-lite' ),
 				[
 					'a'      => [
